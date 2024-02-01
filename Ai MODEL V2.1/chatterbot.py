@@ -350,3 +350,5 @@ class Trainer(object):
             self.chatbot.storage.create_many(statements_from_file)
 
         print('Training took', time.time() - start_time, 'seconds.')
+        
+#By installing the  modules run command python3 start chatterbot#
